@@ -13,7 +13,7 @@ def main():
   width = 550
   height = 350
   win = GraphWin("Aquarium", width, height)
-  bg = Image(Point(width / 2, height / 2), "img/aquarium_bg.gif")
+  bg = Image(Point(width / 2, height / 2), "aquarium_bg.gif")
   bg.draw(win)
   # TODO: step 1
   first_fish = Fish(win, Point(400, 50))
